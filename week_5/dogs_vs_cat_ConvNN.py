@@ -45,7 +45,7 @@ model = tf.keras.models.Sequential([
     # 512 neurons hidden layer
     tf.keras.layers.Dense(512, activation='relu'),
 
-    # Output only one 1. Using Sigmoid to return either 0 or 1. (0 = cats / 1 = dogs)
+    # Output only one. Using Sigmoid to return either 0 or 1. (0 = cats / 1 = dogs)
     tf.keras.layers.Dense(1, activation='sigmoid')
 ])
 
